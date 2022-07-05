@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -37,4 +38,28 @@ section {
 .top-side-logo {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.half-width2 {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width2 img {
+    width: 80%;
+}
+
+.link-button2 {
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, green);
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
